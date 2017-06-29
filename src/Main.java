@@ -30,7 +30,7 @@ public class Main {
 
         System.out.println("Number" + "\t" + "Squared" + "\t" + "Cubed");
         System.out.println("======" + "\t" + "=======" + "\t" + "=====");
-
+        System.out.println("hi");
 
         for (int i = 1; i <= userNum; i++) {
             System.out.println(i + "\t\t" + (i * i) +
