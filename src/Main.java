@@ -25,23 +25,26 @@ public class Main {
 
 
     */
-        scan.nextLine();
 
-        do {
+
+        //do {
         for (int i = 1; i <= userNum; i++) {
             System.out.println(i + "\t\t" + (i * i) +
                     "\t\t" + (i * i * i));
         }
 
-        }
+        //}
 
-       while (choice.equalsIgnoreCase("y"));
+       /*while (choice.equalsIgnoreCase("y"));
 
             //get some input from the user and do stuff
             System.out.println("Continue? (y/n)");
+        scan.nextLine();
             choice = scan.nextLine();
 
         System.out.println("Goodbye");
+        */
+
 
     }
 }
