@@ -9,6 +9,8 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
+        //put the whole for loop inside the while loop and the labels for num sqr and cub
+        while (choice.equalsIgnoreCase("y")) {
         System.out.println("Enter an integer:");
         userNum = scan.nextInt();
 
@@ -28,22 +30,24 @@ public class Main {
 
 
         //do {
-        for (int i = 1; i <= userNum; i++) {
-            System.out.println(i + "\t\t" + (i * i) +
-                    "\t\t" + (i * i * i));
-        }
 
-        //}
 
-       /*while (choice.equalsIgnoreCase("y"));
+            for (int i = 1; i <= userNum; i++) {
+                System.out.println(i + "\t\t" + (i * i) +
+                        "\t\t" + (i * i * i));
+            }
+
+            //}
+
 
             //get some input from the user and do stuff
             System.out.println("Continue? (y/n)");
-        scan.nextLine();
+            scan.nextLine();
             choice = scan.nextLine();
 
+        }
         System.out.println("Goodbye");
-        */
+
 
 
     }
