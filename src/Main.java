@@ -22,6 +22,7 @@ public class Main {
 
 
         int userNum;
+        String choice = "y";
 
         Scanner scan = new Scanner(System.in);
 
@@ -30,12 +31,22 @@ public class Main {
 
         System.out.println("Number" + "\t" + "Squared" + "\t" + "Cubed");
         System.out.println("======" + "\t" + "=======" + "\t" + "=====");
-        System.out.println("hi");
-
+        //System.out.println("hi");
         for (int i = 1; i <= userNum; i++) {
             System.out.println(i + "\t\t" + (i * i) +
                     "\t\t" + (i * i * i));
-        }// write your code here
+        }
+        scan.nextLine();
+
+        while (choice.equalsIgnoreCase("y")){
+
+            //get some input from the user and do stuff
+            System.out.println("Continue? (y/n)");
+            choice = scan.nextLine();
+        }
+        System.out.println("Goodbye");
+
+        // write your code here
 
     }
 }
